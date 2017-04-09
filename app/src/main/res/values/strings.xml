@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Test your knowledge!</string>
+    <string name="question1">1. The hermitage is a...?</string>
+    <string name="question2">2. Which cities are in the same country as Cluj-Napoca?</string>
+    <string name="question3">3. What country sent the first astronaut to outer space?</string>
+    <string name="question4">4. In which sport did Pete Sampras compete?</string>
+    <string name="question5">5. What prestigious award was established by a Sweedish scientist and inventor of dynamite?</string>
+    <string name="question6">6. Who was an emblamtic figure during the Siege of Belgrade in 1456?</string>
+    <string name="question7">7. The greek gods live at Mount Penglai </string>
+    <string name="question8">8. Which from these companies are international airline companies ?</string>
+    <string name="question9">9. Which animals fit in the list?</string>
+    <string name="question10">10. Graphite is composed of...</string>
+
+    <string name="toast_message_1">Great job! Excellent answers! </string>
+    <string name="toast_message_2">You did ok, but not perfect. Keep reading!</string>
+    <string name="toast_message_3">This is not your best day. Keep trying!</string>
+
+</resources>

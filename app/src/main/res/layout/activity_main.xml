@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myquizapp.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/paper"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question1"
+                style="@style/questions"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:id="@+id/museum"
+                android:hint="Write your answer here" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:text="@string/question2"
+            style="@style/questions"/>
+
+        <CheckBox
+            style="@style/answer1"
+            android:id="@+id/brasov"
+            android:text="Brasov"/>
+
+        <CheckBox
+            style="@style/answer1"
+            android:id="@+id/timisoara"
+            android:text="Timisoara" />
+
+        <CheckBox
+            style="@style/answer1"
+            android:id="@+id/constanta"
+            android:text="Constanta" />
+
+        <CheckBox
+            style="@style/answer1"
+            android:id="@+id/chisinau"
+            android:text="Chisinau" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:text="@string/question3"
+            style="@style/questions"/>
+
+        <RadioGroup
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/answer1"
+                android:id="@+id/china"
+                android:text="China" />
+
+            <RadioButton
+                style="@style/answer1"
+                android:id="@+id/france"
+                android:text="France" />
+
+            <RadioButton
+                style="@style/answer1"
+                android:id="@+id/russia"
+                android:text="Russia" />
+
+            <RadioButton
+                style="@style/answer1"
+                android:id="@+id/usa"
+                android:text="United States of America" />
+        </RadioGroup>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question4"
+                style="@style/questions"/>
+
+            <RadioGroup
+                android:id="@+id/petesampras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/football"
+                    android:text="Football" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/tennis"
+                    android:text="Tennis" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/darts"
+                    android:text="Darts" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/polo"
+                    android:text="Polo" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question5"
+                style="@style/questions"/>
+
+            <RadioGroup
+                android:id="@+id/dynamite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/tonyaward"
+                    android:text="Tony Award" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/pulitzer"
+                    android:text="Pulitzer Prize"
+                    android:checked="false"/>
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/newbery"
+                    android:text="Newbery Medal" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/nobel"
+                    android:text="Nobel Prize" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question6"
+                style="@style/questions"/>
+
+            <RadioGroup
+                android:id="@+id/belgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/matthias"
+                    android:text="Matthias Corvinus" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/john"
+                    android:text="John Hunyadi" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/napoleon"
+                    android:text="Napoleon" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/richard"
+                    android:text="Richard the Lionheart" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question7"
+                style="@style/questions"/>
+
+            <RadioGroup
+                android:id="@+id/greekgods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/true1"
+                    android:text="True" />
+
+                <RadioButton
+                    style="@style/answer1"
+                    android:id="@+id/false1"
+                    android:text="False" />
+            </RadioGroup>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question8"
+                style="@style/questions"/>
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/lufthansa"
+                android:text="Lufthansa" />
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/blueair"
+                android:text="Blue Air" />
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/fila"
+                android:text="Fila" />
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/kodak"
+                android:text="Kodak" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question9"
+                style="@style/questions"/>
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/guinea"
+                android:text="Guinea Pig" />
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/chipmunk"
+                android:text="Chipmunk" />
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/rabbit"
+                android:text="Rabbit" />
+
+            <CheckBox
+                style="@style/answer1"
+                android:id="@+id/squirrel"
+                android:text="Squirrel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="@string/question10"
+                style="@style/questions"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:id="@+id/graphite"
+                android:hint="Write your answer here" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/submitbutton"
+            android:text="Submit"
+            android:onClick="submitQuiz">
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/correctResults"
+                android:textAlignment="center"
+                android:textColor="#004d40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/wrongResults"
+                android:textAlignment="center"
+                android:textColor="#bf360c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:text="" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
